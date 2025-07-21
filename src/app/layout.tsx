@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "../components/Navigation";
 
 export const metadata: Metadata = {
   title: "LucidQuant - Crafted for the Unconventional",
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-sans antialiased">
+        <Navigation />
         {children}
       </body>
     </html>
