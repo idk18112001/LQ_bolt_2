@@ -11,7 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "LucidQuant - A stock research platform focused on unconventional investment signals",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^24.0.15",
