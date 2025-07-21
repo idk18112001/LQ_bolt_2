@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="#0A0F29"/>
+  
+  <!-- Diamond frame with connecting points -->
+  <g fill="#FAFAF0" stroke="none">
+    <!-- Top point -->
+    <circle cx="50" cy="15" r="6"/>
+    <!-- Right point -->
+    <circle cx="85" cy="50" r="6"/>
+    <!-- Bottom point -->
+    <circle cx="50" cy="85" r="6"/>
+    <!-- Left point -->
+    <circle cx="15" cy="50" r="6"/>
+    
+    <!-- Diamond frame lines -->
+    <path d="M 50 21 Q 67 33 79 50 Q 67 67 50 79 Q 33 67 21 50 Q 33 33 50 21 Z" stroke="#FAFAF0" stroke-width="3" fill="none"/>
+    
+    <!-- Inner eye shape -->
+    <ellipse cx="50" cy="50" rx="25" ry="15" stroke="#FAFAF0" stroke-width="3" fill="none"/>
+    
+    <!-- Eye center/pupil -->
+    <circle cx="50" cy="50" r="8" fill="#FAFAF0"/>
+  </g>
+</svg>
